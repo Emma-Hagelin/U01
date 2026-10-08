@@ -8,6 +8,8 @@
     --gradient: linear-gradient(90deg, #13b0f5, #e70faa);
     --color-accent-purple: #8a2be2;
     --color-accent-pink: #e70faa;
+    --color-border: #e5e5e5;
+    --color-badge-text: 016d0c;
 }
 
 *,
