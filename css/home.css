@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.hero-title {
+    font-size: 1.75rem;
+}
+
+.hero-line {
+    display: block;
+    width: fit-content;
+}
+
+.hero-image {
+    width: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px;
+    background: var(--gradient);
+}
+
+@media (min-width: 900px) {
+    .hero {flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 0;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-image {
+        width: 320px;
+    }
+}

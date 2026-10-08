@@ -3,51 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Emma Hagelin - Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/projects.css">
 </head>
 <body>
     <header class="site-header">
-        <a href="index.html">Portfolio</a>
-        <img src="images/logo.png" alt="Emma Hagelin - home">
-    
+      <a href="index.html" class="logo" aria-label="Emma Hagelin - home">
+        <span class="logo-mark text-gradient">{EH}</span>
+        <span class="logo-name text-gradient">emmahagelin</span>
+      </a>
+        </a>
 
-        <nav class="main-nav" aria-label="Homepage">
-            <ul class="main-nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+        <details class="mobile-menu">
+            <summary class="menu-toggle">
+                <img src="images/menu.svg" alt="Meny" />
+            </summary>
+            <nav aria-label="Main menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tech-stack.html">Tech Stack</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="social-list">
+                <li>
+                    <a href="https://github.com/EmmaHagelin">
+                        <img src="images/github.png" alt="Github" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/emma.hagelin/">
+                        <img src="images/instagram.svg" alt="Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/emma-hagelin-818945179/">
+                        <img src="images/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                </li>
             </ul>
-        </nav>
+        </details>
 
-        <ul class="social-list">
-            <li>
-                <a href="https://github.com/EmmaHagelin">
-                    <img src="images/github.svg" alt="Github" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/emma.hagelin/">
-                    <img src="images/instagram.svg" alt="Instagram" />
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/emma-hagelin-818945179/">
-                    <img src="images/linkedin.svg" alt="LinkedIn" />
-                </a>
-            </li>
         
-        </ul>
+        <div class="desktop-menu">
+            <nav aria-label="Main menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tech-stack.html">Tech Stack</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <ul class="social-list">
+                <li>
+                    <a href="httwps://github.com/EmmaHagelin">
+                        <img src="images/github.png" alt="Github" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/emma.hagelin/">
+                        <img src="images/instagram.svg" alt="Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/emma-hagelin-818945179/">
+                        <img src="images/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
+
+    <main>
+        
+    </main>
+
     <footer class="site-footer">
         <p>
             Designed and built by <span class="footer-name">Emma Hagelin</span>
-            with <span class="footer-higlight">Love</span> &amp;
+            with <span class="footer-highlight">Love</span> &amp;
             <span class="footer-highlight">Coffee</span>
         </p>
     </footer>
