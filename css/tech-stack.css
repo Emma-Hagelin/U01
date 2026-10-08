@@ -1,0 +1,35 @@
+.tech-grid {
+    list-style: none;
+    margin: 2rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.tech-grid img {
+    width: 100%;
+    max-width: 64px;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.tech-section {
+    margin-top: 3rem;
+}
+
+.tech-section h2 {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 900px) {
+    .tech-grid {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 3rem;
+    }
+
+    .tech-grid img {
+        max-width: 80px;
+    }
+}
