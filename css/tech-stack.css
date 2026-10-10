@@ -1,17 +1,16 @@
 .tech-grid {
     list-style: none;
-    margin: 2rem 0 0;
+    margin: 2.5rem 0 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 3rem;
-    margin-top: 7rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem 1rem;
     justify-items: center;
 }
 
 .tech-grid img {
     width: 100%;
-    max-width: 64px;
+    max-width: 100px;
     aspect-ratio: 1;
     object-fit: contain;
 }
@@ -28,5 +27,10 @@
     .tech-grid {
         grid-template-columns: repeat(6, 1fr);
         gap: 3rem;
+        margin-top: 7rem;
+    }
+
+    .tech-section .tech-grid {
+        margin-top: 2.5rem;
     }
 }
